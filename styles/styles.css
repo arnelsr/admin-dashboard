@@ -1,0 +1,235 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background-color:  rgb(225, 220, 220);
+      
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(5,1fr) ;
+   
+}
+.sidebar {
+    grid-column: 1/2;
+    height:100vh;
+    background-color: rgb(8, 87, 142);
+    font-weight: bold;
+    color: white;
+    padding-left:20px;
+    padding-top: 20px;
+    
+}   
+.right-side {
+    grid-column:2/6;
+    height:100vh;
+   
+    padding-top: 0px;
+    
+    background-color:  rgb(225, 220, 220);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.header{
+    padding-top:20px;
+    grid-column: 2/5;
+    padding-left: 0px;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    font-weight: bold;
+    box-shadow: 5px 5px rgb(36, 35, 35) ;
+    padding-bottom: 20px;
+    background-color: white;
+    
+}
+.search-bar{
+    padding-left:20px;
+
+    grid-column: 1/2;
+    display:grid;
+    
+    grid-template-columns: 1fr 13fr;
+    
+}
+.search{
+    
+    margin-right: 30px;
+    background-color: rgb(225, 220, 220);
+    border-style: none;
+    border-radius: 10px;
+    height:30px;
+}
+.main-content{
+    grid-column:2/5;
+    padding-top: 20px;
+    background-color:  rgb(225, 220, 220);
+    padding-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+   
+}
+.header{
+        box-shadow: 10px 10px rgb(172, 170, 170) ;  
+}
+.main-content-left-header, .main-content-right-header1, .main-content-right-header2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.content-boxes-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+
+}
+.content-boxes{
+    border-style:none;
+    background-color:white;
+    box-shadow: -3px 0px rgb(220, 199, 66);
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+}
+.content-boxes-header{
+    font-size: 15px;
+    font-weight: bold;
+}
+.content-boxes-para{
+    padding-top: 10px;
+    font-size: 12px;
+   
+}
+.content-boxes-icon-container{
+    padding-top: 30px;
+    display:flex;
+    justify-content: end;
+    padding-right: 10px;
+    gap: 10px;
+ }
+
+.dashboard{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    font-size: 20px;
+    
+}
+.home{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top:30px;
+}
+.settings{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 40px;
+}
+.settings, .home, .dashboard{
+    gap: 10px;
+
+}
+
+    
+
+
+.top-right-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    padding-left: 40px;
+    align-content: center;
+    font-size: 13px;
+}
+#header-image1{
+    border-radius: 50%;
+    width: 30px;
+    align-self: start;
+    margin: 0px;
+}
+#header-image2{
+    border-radius: 50%;
+    width: 50px;
+    align-self: start;
+    margin: 0px;
+}
+li {
+    list-style: none;
+   
+}
+.low-right-header ul{
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 0px;
+    
+}
+.low-right-header button {
+    border-radius: 16px;
+    color:white;
+    background-color: rgb(8, 87, 142); 
+    border-style: none;
+    width:75px;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+   
+}
+.low-left-header{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 6fr;
+    padding-left:20px;
+}
+
+.hi-there-text{
+    font-size: 10px;
+}
+.morgan-oakley{
+    grid-column: 2/7;
+    
+}
+.main-content{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.main-content-right-bottom {
+    grid-column:2/3;
+}
+
+.main-content-left-header{
+    grid-column: 1/3;
+}
+.main-content-right {
+    padding-left: 20px;
+}
+.main-content-right-header2 {
+    padding-top: 20px;
+}
+.site-maintenance-headers {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.site-maintenance-para {
+    font-size: 12px;
+}
+.site-maintenance-container, .trending-container{
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-right: 35px;
+    padding-bottom: 30px;
+}
+.trending-container{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 20px;
+    gap:10px;
+}
+.trending-content-header{
+    font-weight:bold;
+}
+.trending-content-para{
+    font-size: 12px;
+}
